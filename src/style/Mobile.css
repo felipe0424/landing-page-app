@@ -23,7 +23,7 @@
      justify-content: start;
      align-items: center;
      background: url(../assets/images/image.png) no-repeat bottom center/cover;
-     gap: 1rem;
+     gap: 1.5rem;
      width: 100%;
      padding: 4rem 2rem;
      overflow: hidden;
@@ -39,6 +39,12 @@
        color: var(--text-color-primary);
        text-align: center;
      }
+
+     & h4 {
+       font: var(--p);
+       color: var(--text-color-secondary);
+       text-align: center;
+     }
    }
  
    & .about {
@@ -49,14 +55,13 @@
      width: 100%;
  
      & .about-container {
-      position: relative;
-      top: -20rem;
        display: flex;
        flex-direction: column-reverse;
        margin: auto;
        align-items: start;
        gap: 1rem;
        width: 100%;
+       max-height: 25rem;
        padding: 2rem 2rem;
  
        & .about-text {
@@ -64,7 +69,7 @@
          flex-direction: column;
          justify-content: start;
          align-items: start;
-         text-align: justify;
+         text-align:left;
          gap: 1rem;
          width: 100%;
          max-width: 100%;
@@ -97,7 +102,7 @@
            filter: drop-shadow(2rem 0 4rem var(--surface-color));
 
            & img {
-             width: 10rem;
+             max-width: 12rem;
            }
          }
    
@@ -108,7 +113,7 @@
            z-index: 1;
 
            & img {
-            width: 12rem;
+            max-width: 14rem;
           }
          }
        }
