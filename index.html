@@ -19,12 +19,15 @@
       <div class="nav">
         <nav class="menu">
           <ul>
-            <li>Conheça o app</li>
-            <li>Funcionalidades</li>
-            <li>Planos e preços</li>
+            <li>
+              <a href="#about">Conheça o app</a></li>
+            <li>
+              <a href="#cards">Funcionalidades</a></li>
+            <li>              
+              <a href="#plans">Planos e preços</a></li>
           </ul>
         </nav>
-        <a href="#" class="baixar">
+        <a href="#download" class="baixar">
           Baixar agora
         </a>
       </div>
@@ -32,18 +35,249 @@
   </header>
 
   <main>
-    <section>
-      <div class="music-bar">
-        <img src="src/assets/icons/music-bar.svg" alt="Barras de Música">
+    <section class="hero" id="hero">
+      <div>
+        <img class="music-bar" src="src/assets/icons/music-bar.svg" alt="Barras de Música">
       </div>
       <h1>Quem canta seus males espanta</h1>
       <h4>Cantar nunca foi tão fácil</h4>
       <div class="buttons">
-        <a href="#" class="planos">Ver planos</a>
-        <a href="#" class="baixar">Baixar agora</a>
+        <a href="#plans" class="planos">Ver planos</a>
+        <a href="#download" class="baixar">Baixar agora</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <strong>CONHEÇA O APP</strong>
+          <h2>O aplicativo perfeito para aprender a cantar</h2>
+          <p>
+            Nosso algoritmo de Inteligência Artificial permite remover a voz original e manter as melodias das músicas. Dessa forma, temos o maior repertório musical para Karaokê! Além disso, ao cantar, sua voz e afinação é comparada pelo algoritmo permitindo uma avaliação precisa da sua performance te ajudando a melhorar seu canto. 
+          </p>
+        </div>
+        <div class="container-img">
+          <div class="about-img1">
+            <img src="./src/assets/images/iphone2.png" alt="Celular com app de karaokê">
+          </div>
+          <div class="about-img2">
+            <img src="./src/assets/images/iphone1.png" alt="Celular com app de karaokê">
+          </div>
+  
+        </div>
+      </div>
+    </section>
+    <section class="cards" id="cards">
+      <div class="card" id="card1">
+        <img src="src/assets/icons/magic.svg" alt="Ícone de mágica">
+        <h3>A maior biblioteca de músicas de Karaokê!</h3>
+        <p>Nossa IA remove a voz de qualquer música e a deixa pronta pra cantar, num passe de mágica!</p>
+      </div>
+      <div class="card" id="card2">
+        <div class="card-contain-img">
+          <div class="card-text">
+            <img src="src/assets/icons/controle.svg" alt="Ícone de Controle">
+            <h3>Experiência gamificada</h3>
+            <p>Sua performance é pontuada de acordo com nosso algoritmo ultra preciso. Desafie-se, ganhe reconhecimento e comemore sua evolução!</p>
+          </div>
+          <div>
+            <img class="card-img" src="src/assets/images/iphone4.png" alt="Celular com app de karaokê">
+          </div>
+        </div>
+      </div>
+      <div class="card" id="card3">
+        <img src="src/assets/icons/microfone.svg" alt="Ícone de Voz">
+        <h3>Grave suas performances</h3>
+        <p>Seja para compartilhar com os amigos ou para acompanhar sua evolução, nosso recurso de gravação de áudio e vídeo permite que você aproveite a experiência ao máximo!</p>
+      </div>
+      <div class="card" id="card4">
+        <div class="card-contain-img">
+          <div class="card-text">
+            <img src="src/assets/icons/user.svg" alt="Ícone de Usuário">
+            <h3>Compartilhe com a comunidade</h3>
+            <p>Compartilhe suas gravações com a comunidade, interaja e explore a performance vocal de outras pessoas no seu feed!</p>
+          </div>
+          <div>
+            <img class="card-img" src="src/assets/images/iphone3.png" alt="Celular com app de karaokê">
+          </div>
+        </div>
+      </div>
+      <div class="card" id="card5">
+        <div class="card-contain-img">
+          <div class="card-text">
+            <img src="src/assets/icons/music.svg" alt="Ícone de Música">
+            <h3>Letras em tempo-real</h3>
+            <p>Nunca perca o ritmo com as letras das músicas sincronizadas e exibidas em tempo real. Você também pode ativar a voz original da música para ajudar.</p>
+          </div>
+          <div>
+            <img class="card-img" src="src/assets/images/iphone5.png" alt="Celular com app de karaokê">
+          </div>  
+        </div>
+      </div>
+
+    </section>
+    <section class="plans" id="plans">
+      <div class="text">
+        <strong>PLANOS E PREÇOS</strong>
+        <h2>Assine e tenha acesso ilimitado a todas as funcionalidades</h2>
+      </div>
+      <div class="plans-cards">
+        <div class="plans-individual" id="basic">
+          <div class="text-individual">
+            <strong>Básico</strong>
+            <p>Baixe o app e começe a cantar agora mesmo!</p>
+            <h2>Grátis</h2>
+          </div>
+          <div class="button-container">
+            <a href="#" class="button-plans">Baixar agora</a>
+          </div>
+          <div class="line">
+          </div>
+          <div class="incluse-individual">
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Com anúncios</p>
+            </div>
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Até 5 músicas por dia</p>
+            </div>
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Cante apenas as músicas disponíveis no plano gratuito</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="plans-individual" id="premium">
+          <div class="destaque">
+            <strong>1 MÊS GRÁTIS</strong>
+          </div>
+          <div class="text-individual">
+            <strong>Premium</strong>
+            <p>Ideal para quem já cansou de passar vergonha no Karaokê</p>
+            <div class="price">
+              <h2>R$ 24,90</h2>
+              <p>/por mês</p>
+            </div>
+
+          </div>
+          <div class="button-container">
+            <a href="#" class="button-plans">Experimente de graça</a>
+          </div>
+          <div class="line">
+          </div>
+          <div class="incluse-individual">
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Sem interrupção de anúncios</p>
+            </div>
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Cante quantas músicas quiser</p>
+            </div>
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Cante todas as músicas da biblioteca</p>
+            </div>
+            <div class="incluse-obs">
+              <p>Plano mais popular. Saiba mais sobre as condições.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="plans-individual" id="family">
+          <div class="text-individual">
+            <strong>Família</strong>
+            <p>Para aquelas famílias que adoram se reunir pra cantar</p>
+            <div class="price">
+              <h2>R$ 21,90</h2>
+              <p>/por pessoa</p>
+            </div>
+          </div>
+          <div class="button-container">
+            <a href="#" class="button-plans">Assinar agora</a>
+          </div>
+          <div class="line">
+          </div>
+          <div class="incluse-individual">
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Sem interrupção de anúncios</p>
+            </div>
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Cante quantas músicas quiser</p>
+            </div>
+            <div class="incluse-details">
+              <img src="src/assets/icons/ok.svg" alt="Ícone OK">
+              <p>Cante todas as músicas da biblioteca</p>
+            </div>
+            <div class="incluse-obs">
+              <p>Mínimo de 4 pessoas no plano família.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="download" id="download">
+      <div class="download-container">
+        <div class="download-text">
+          <strong>DOWNLOAD</strong>
+          <h2>Bora Cantar?</h2>
+          <p>Desperte seu potencial de estrela, liberte sua voz e faça parte da comunidade musical mais envolvente. Baixe o Zingen agora e transforme suas performances em experiências inesquecíveis!</p>
+          <div class="store">
+            <img src="./src/assets/icons/apple.svg" alt="Baixar na Apple Store">
+            <img src="./src/assets/icons/googleplay.svg" alt="Baixar na Google Play">
+          </div>
+        </div>
+        <div>
+          <img class="download-img" src="./src/assets/images/image1.png" alt="Celular com app de karaokê">
       </div>
     </section>
   </main>
 
+  <footer>
+    <div class="footer">
+      <div class="logo">
+        <img src="src/assets/icons/logo.svg" alt="Logo Zingen">
+      </div>
+  
+      <nav class="footer-nav">
+        <ul>
+          <li class="title">PRODUTO</li>
+          <li><a href="#cards">Funcionalidades</a></li>
+          <li><a href="#plans">Planos e preços</a></li>
+          <li><a href="#download">Download</a></li>
+        </ul>
+        <ul>
+          <li class="title">EMPRESA</li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#cards">Trabalhe conosco</a></li>
+          <li><a href="#plans">Blog</a></li>
+        </ul>
+        <ul>
+          <li class="title">LEGAL</li>
+          <li><a href="#about">Termos de uso</a></li>
+          <li><a href="#cards">Política de privacidade</a></li>
+        </ul>
+
+      </nav>
+  
+      <div class="social">
+        <img src="./src/assets/icons/tiktok.svg" alt="TikTok">
+        <img src="./src/assets/icons/instagram.svg" alt="Instagram">
+        <img src="./src/assets/icons/x.svg" alt="Twitter">
+        <img src="./src/assets/icons/discord.svg" alt="Discord">
+      </div>
+    </div>
+  
+    <div class="copy">
+      <p>©2024 Zingen Technologies, Inc.</p>
+    </div>
+  </footer>
+  
 </body>
 </html>

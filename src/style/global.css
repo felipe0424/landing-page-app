@@ -34,6 +34,7 @@
   --h4: 500 1.2rem var(--font-family);
   --span: 500 .875rem var(--font-family);
   --p: 400 1rem var(--font-family);
+  --strong: 700 1rem var(--font-family);
 }
 
 @media (width >= 80rem) {

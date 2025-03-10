@@ -20,18 +20,16 @@
   display: inline-block;
   padding: 10px 20px;
   color: var(--text-color-primary);
-  border: 2px solid transparent; /* Borda padrão transparente */
+  border: 2px solid var(--text-color-primary);
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
   box-sizing: border-box;
-  border-color: var(--text-color-primary);
   transition: all 0.3s ease;
-
+  position: relative;
 }
 
 .planos:hover {
-  background: #FC4A1A;
-  color: var(--bg-color);
-  border-color: transparent;
+  border: 2px solid #FC4A1A;
+  color: #FC4A1A;
 }
